@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ImGuiTest
+# Target rules for targets named ImGuiRtAudioRtMidiDemo
 
 # Build rule for target.
-ImGuiTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImGuiTest
-.PHONY : ImGuiTest
+ImGuiRtAudioRtMidiDemo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImGuiRtAudioRtMidiDemo
+.PHONY : ImGuiRtAudioRtMidiDemo
 
 # fast build rule for target.
-ImGuiTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/build
-.PHONY : ImGuiTest/fast
+ImGuiRtAudioRtMidiDemo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build
+.PHONY : ImGuiRtAudioRtMidiDemo/fast
 
 backends/imgui_impl_glfw.o: backends/imgui_impl_glfw.cpp.o
 .PHONY : backends/imgui_impl_glfw.o
 
 # target to build an object file
 backends/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/backends/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/backends/imgui_impl_glfw.cpp.o
 .PHONY : backends/imgui_impl_glfw.cpp.o
 
 backends/imgui_impl_glfw.i: backends/imgui_impl_glfw.cpp.i
@@ -142,7 +142,7 @@ backends/imgui_impl_glfw.i: backends/imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 backends/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/backends/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/backends/imgui_impl_glfw.cpp.i
 .PHONY : backends/imgui_impl_glfw.cpp.i
 
 backends/imgui_impl_glfw.s: backends/imgui_impl_glfw.cpp.s
@@ -150,7 +150,7 @@ backends/imgui_impl_glfw.s: backends/imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 backends/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/backends/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/backends/imgui_impl_glfw.cpp.s
 .PHONY : backends/imgui_impl_glfw.cpp.s
 
 backends/imgui_impl_opengl3.o: backends/imgui_impl_opengl3.cpp.o
@@ -158,7 +158,7 @@ backends/imgui_impl_opengl3.o: backends/imgui_impl_opengl3.cpp.o
 
 # target to build an object file
 backends/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/backends/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/backends/imgui_impl_opengl3.cpp.o
 .PHONY : backends/imgui_impl_opengl3.cpp.o
 
 backends/imgui_impl_opengl3.i: backends/imgui_impl_opengl3.cpp.i
@@ -166,7 +166,7 @@ backends/imgui_impl_opengl3.i: backends/imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 backends/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/backends/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/backends/imgui_impl_opengl3.cpp.i
 .PHONY : backends/imgui_impl_opengl3.cpp.i
 
 backends/imgui_impl_opengl3.s: backends/imgui_impl_opengl3.cpp.s
@@ -174,7 +174,7 @@ backends/imgui_impl_opengl3.s: backends/imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 backends/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/backends/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/backends/imgui_impl_opengl3.cpp.s
 .PHONY : backends/imgui_impl_opengl3.cpp.s
 
 src/imgui.o: src/imgui.cpp.o
@@ -182,7 +182,7 @@ src/imgui.o: src/imgui.cpp.o
 
 # target to build an object file
 src/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui.cpp.o
 .PHONY : src/imgui.cpp.o
 
 src/imgui.i: src/imgui.cpp.i
@@ -190,7 +190,7 @@ src/imgui.i: src/imgui.cpp.i
 
 # target to preprocess a source file
 src/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui.cpp.i
 .PHONY : src/imgui.cpp.i
 
 src/imgui.s: src/imgui.cpp.s
@@ -198,7 +198,7 @@ src/imgui.s: src/imgui.cpp.s
 
 # target to generate assembly for a file
 src/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui.cpp.s
 .PHONY : src/imgui.cpp.s
 
 src/imgui_demo.o: src/imgui_demo.cpp.o
@@ -206,7 +206,7 @@ src/imgui_demo.o: src/imgui_demo.cpp.o
 
 # target to build an object file
 src/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_demo.cpp.o
 .PHONY : src/imgui_demo.cpp.o
 
 src/imgui_demo.i: src/imgui_demo.cpp.i
@@ -214,7 +214,7 @@ src/imgui_demo.i: src/imgui_demo.cpp.i
 
 # target to preprocess a source file
 src/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_demo.cpp.i
 .PHONY : src/imgui_demo.cpp.i
 
 src/imgui_demo.s: src/imgui_demo.cpp.s
@@ -222,7 +222,7 @@ src/imgui_demo.s: src/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 src/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_demo.cpp.s
 .PHONY : src/imgui_demo.cpp.s
 
 src/imgui_draw.o: src/imgui_draw.cpp.o
@@ -230,7 +230,7 @@ src/imgui_draw.o: src/imgui_draw.cpp.o
 
 # target to build an object file
 src/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_draw.cpp.o
 .PHONY : src/imgui_draw.cpp.o
 
 src/imgui_draw.i: src/imgui_draw.cpp.i
@@ -238,7 +238,7 @@ src/imgui_draw.i: src/imgui_draw.cpp.i
 
 # target to preprocess a source file
 src/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_draw.cpp.i
 .PHONY : src/imgui_draw.cpp.i
 
 src/imgui_draw.s: src/imgui_draw.cpp.s
@@ -246,7 +246,7 @@ src/imgui_draw.s: src/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 src/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_draw.cpp.s
 .PHONY : src/imgui_draw.cpp.s
 
 src/imgui_tables.o: src/imgui_tables.cpp.o
@@ -254,7 +254,7 @@ src/imgui_tables.o: src/imgui_tables.cpp.o
 
 # target to build an object file
 src/imgui_tables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_tables.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_tables.cpp.o
 .PHONY : src/imgui_tables.cpp.o
 
 src/imgui_tables.i: src/imgui_tables.cpp.i
@@ -262,7 +262,7 @@ src/imgui_tables.i: src/imgui_tables.cpp.i
 
 # target to preprocess a source file
 src/imgui_tables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_tables.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_tables.cpp.i
 .PHONY : src/imgui_tables.cpp.i
 
 src/imgui_tables.s: src/imgui_tables.cpp.s
@@ -270,7 +270,7 @@ src/imgui_tables.s: src/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 src/imgui_tables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_tables.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_tables.cpp.s
 .PHONY : src/imgui_tables.cpp.s
 
 src/imgui_widgets.o: src/imgui_widgets.cpp.o
@@ -278,7 +278,7 @@ src/imgui_widgets.o: src/imgui_widgets.cpp.o
 
 # target to build an object file
 src/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_widgets.cpp.o
 .PHONY : src/imgui_widgets.cpp.o
 
 src/imgui_widgets.i: src/imgui_widgets.cpp.i
@@ -286,7 +286,7 @@ src/imgui_widgets.i: src/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 src/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_widgets.cpp.i
 .PHONY : src/imgui_widgets.cpp.i
 
 src/imgui_widgets.s: src/imgui_widgets.cpp.s
@@ -294,7 +294,7 @@ src/imgui_widgets.s: src/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 src/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/imgui_widgets.cpp.s
 .PHONY : src/imgui_widgets.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -302,7 +302,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -310,7 +310,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -318,7 +318,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiTest.dir/build.make CMakeFiles/ImGuiTest.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/build.make CMakeFiles/ImGuiRtAudioRtMidiDemo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -329,7 +329,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ImGuiTest"
+	@echo "... ImGuiRtAudioRtMidiDemo"
 	@echo "... backends/imgui_impl_glfw.o"
 	@echo "... backends/imgui_impl_glfw.i"
 	@echo "... backends/imgui_impl_glfw.s"
